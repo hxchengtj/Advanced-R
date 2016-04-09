@@ -15,6 +15,9 @@ subscramble <- function(x, condition){
   scramble(subset2_q(x, condition))
 }
 
+## if run in any problems, 
+## please use function debugonce to debug
+
 df <- data.frame(a = 1:5,
                  b = 5:1,
                  c = c(3,4,6,1,2))
