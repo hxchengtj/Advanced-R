@@ -1,4 +1,4 @@
-
+## function substitute, sample, nrow
 subset2_q <- function(x, condition){
   index <- eval(condition, x, parent.frame())
   x[index, ]
